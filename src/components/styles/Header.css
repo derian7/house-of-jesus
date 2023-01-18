@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0 0.75rem 0;
+}
+
+.header-logo {
+  align-items: flex-start;
+}
+
+.header-nav-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.25rem;
+}
+
+.header-nav-menu > a {
+  font-size: var(--h6-font-size);
+}
