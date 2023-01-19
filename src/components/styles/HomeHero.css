@@ -22,7 +22,7 @@
   height: auto;
   justify-content: flex-start;
   align-items: flex-end;
-  z-index: 10;
+  z-index: 5;
 }
 
 #home-hero-visual {
@@ -33,10 +33,10 @@
 
 #home-hero-visual::after {
   content: "";
-  top: -25%;
-  right: -10%;
+  top: -20%;
+  right: -20%;
   position: absolute;
-  height: 125%;
-  width: 60%;
-  background: var(--color-compliment);
+  height: 120%;
+  width: 120%;
+  background: var(--color-compliment)
 }

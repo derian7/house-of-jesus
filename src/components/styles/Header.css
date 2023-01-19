@@ -33,13 +33,14 @@
 }
 
 #header-donate-button {
-  color: var(--color-primary);
-  border: 3px solid var(--color-primary);
+  color: var(--color-primary-dark);
+  border: 3px solid var(--color-primary-dark);
   background: none;
 }
 
 /*#region nav link animation */
 .header-nav-link {
+  color: var(--color-primary-dark);
   position: relative;
 }
 
@@ -55,7 +56,7 @@
   height: 2px;
   bottom: 0;
   margin: -5px 0;
-  background-color: var(--color-primary);
+  background: var(--color-primary-dark) var(--background-static);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.5s ease-in-out 0s;
