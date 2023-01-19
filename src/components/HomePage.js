@@ -1,12 +1,12 @@
-import React from 'react'
-import HomeHero from './HomeHero'
+import React from "react";
+import HomeHero from "./HomeHero";
 
 const HomePage = () => {
   return (
-    <div className='container'>
+    <React.Fragment>
       <HomeHero />
-    </div>
-  )
-}
+    </React.Fragment>
+  );
+};
 
-export default HomePage
+export default HomePage;

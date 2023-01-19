@@ -1,0 +1,41 @@
+#home-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+}
+
+#home-hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--gap-column-standard);
+}
+
+#home-hero-info h1 {
+  text-transform: capitalize;
+}
+
+#home-hero-image {
+  width: 500px;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-end;
+  z-index: 10;
+}
+
+#home-hero-visual {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#home-hero-visual::after {
+  content: "";
+  top: -25%;
+  right: -10%;
+  position: absolute;
+  height: 125%;
+  width: 60%;
+  background: var(--color-compliment);
+}

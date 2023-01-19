@@ -11,7 +11,7 @@
   --color-primary: #005270;
   --color-primary-dark: #023655;
   --color-secondary: #007056;
-  --color-compliment: #701e00;
+  --color-compliment: #c1a050;
   --color-secondary-hover: #045c47;
   --color-white: #fff;
   /*#endregion*/
@@ -23,12 +23,18 @@
   --h4-font-size: 2rem;
   --h5-font-size: 1.45rem;
   --p-font-size: 1.1rem;
+  --button-font-size: 1.5rem;
+  --button-small-font-size: 1.25rem;
   /*#endregion*/
 
   /*#region Container Values*/
   --container-width: 1300px;
   --container-margin: auto;
   --container-wide-margin: 3rem;
+  /*#endregion */
+
+  /*#region Gap Values */
+  --gap-column-standard: 0.75rem;
   /*#endregion */
 }
 /*#endregion*/
@@ -112,6 +118,30 @@ a {
 
 /*#endregion*/
 
+/*#reusable classes */
+.button {
+  font-size: var(--button-font-size);
+  background-color: var(--color-compliment);
+  color: var(--color-background);
+  font-weight: 500;
+  padding: 0.65rem 2.5rem 0.65rem 2.5rem;
+  border-radius: 999px;
+}
+
+.button-small {
+  font-size: var(--button-small-font-size);
+  background-color: var(--color-compliment);
+  display: flex;
+  font-weight: 500;
+  width: 6rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 999px;
+  color: var(--color-background);
+}
+
 /*---------------------------------------------------- BREAKPOINTS ----------------------------------------------------*/
 
 /* X-Large Devices */
@@ -166,8 +196,8 @@ a {
     --h1-font-size: 2.5rem;
     --h2-font-size: 1.2rem;
     --h3-font-size: 2.4rem;
-    --h4-font-size: 1.9rem;
-    --h5-font-size: 1.1rem;
+    --h4-font-size: 1.2rem;
+    --h5-font-size: 1rem;
     --p-font-size: 0.9rem;
 
     --container-margin: 1.5rem;
@@ -183,7 +213,7 @@ a {
     --h1-font-size: 2rem;
     --h2-font-size: 1.1rem;
     --h3-font-size: 2.2rem;
-    --h4-font-size: 1.6rem;
+    --h4-font-size: 1.1rem;
     --h5-font-size: 1rem;
     --p-font-size: 0.8rem;
 

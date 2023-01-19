@@ -1,26 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/Header.css";
 
 const Header = () => {
+  const [toggleMenu, showMenu] = useState(false);
+
+  // header menu button toggle
+  const handleToggle = () => {
+    showMenu(!toggleMenu);
+  };
+
   return (
     <header>
       <div className="container-wide header-container">
-        <h4 className="header-logo">THE HOUSE OF JESUS</h4>
-        <nav className="header-nav-menu">
-          <ul className='header-nav-links-container'>
-            <a href="/">Home</a>
-            <a href="/services">Services</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
-            <a href="/donate">Donate</a>
+        <h4 id="header-logo">THE HOUSE OF JESUS</h4>
+        <nav id="header-nav-menu">
+          <ul class={toggleMenu ? "show-menu" : ""} id="header-nav-links">
+            <a href="/" className='header-nav-link'>Home</a>
+            <a href="/services" className='header-nav-link'>Services</a>
+            <a href="/about" className='header-nav-link'>About</a>
+            <a href="/contact" className='header-nav-link'>Contact</a>
+            <a href="/donate" className='button-small' id='header-donate-button'>Donate</a>
           </ul>
-          <div className='header-menu-icon'>
-            <input type="checkbox" id="burger-toggle" />
-            <label for="burger-toggle" class="burger-menu">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-            </label>
+          <div
+            onClick={handleToggle}
+            for="burger-toggle"
+            class={toggleMenu ? "show-menu" : ""}
+            id="header-menu-icon"
+          >
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
           </div>
         </nav>
       </div>
