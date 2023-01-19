@@ -1,7 +1,7 @@
 #home-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 50vh;
+  height: 65vh;
 }
 
 #home-hero-info {
@@ -20,8 +20,8 @@
 #home-hero-image {
   width: 500px;
   height: auto;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-self: flex-end;
+  align-self: flex-start;
   z-index: 5;
 }
 
