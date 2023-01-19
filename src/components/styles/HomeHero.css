@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: var(--gap-column-standard);
+  padding-right: 5rem;
 }
 
 #home-hero-info h1 {

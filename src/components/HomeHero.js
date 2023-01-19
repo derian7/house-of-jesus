@@ -14,7 +14,7 @@ const HomeHero = () => {
         <a className='button' id='hero-donate-button' href='/'>Services</a>
       </div>
       <div className="home-hero-half" id="home-hero-visual">
-        <img src={HeroImage} id="home-hero-image"/>
+        <img src={HeroImage} id="home-hero-image" alt='Knock on door'/>
       </div>
     </div>
   );
