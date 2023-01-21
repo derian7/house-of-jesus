@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles/Header.css";
+import HeaderLogo from "../img/house-of-jesus-logo.svg"
 
 const Header = () => {
   const [toggleMenu, showMenu] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <div className="container-wide header-container">
-        <h4 id="header-logo">THE HOUSE OF JESUS</h4>
+        <img id="header-logo" src={HeaderLogo}/>
         <nav id="header-nav-menu">
           <ul class={toggleMenu ? "show-menu" : ""} id="header-nav-links">
             <a href="/" className='header-nav-link'>Home</a>

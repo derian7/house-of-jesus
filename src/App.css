@@ -30,11 +30,16 @@
   /*#region Container Values*/
   --container-width: 1300px;
   --container-margin: auto;
-  --container-wide-margin: 3rem;
+  --container-wide-margin: 5rem;
   /*#endregion */
 
   /*#region Gap Values */
   --gap-column-standard: 0.75rem;
+  /*#endregion */
+
+  /*#region Banner Values */
+  --banner-height: 12rem;
+  --banner-padding: 1rem;
   /*#endregion */
 }
 /*#endregion*/
@@ -42,6 +47,11 @@
 /*#region ------------------------------------------------- BASE -------------------------------------------------*/
 * {
   box-sizing: border-box;
+}
+
+body {
+  max-height: 1000px;
+  overflow-y: scroll;
 }
 
 p {
@@ -65,7 +75,7 @@ h4,
 h5 {
   font-weight: 600;
   font-family: var(--font-family-secondary);
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
@@ -121,7 +131,7 @@ a {
 /*#reusable classes */
 .button {
   font-size: var(--button-font-size);
-  background-color: var(--color-compliment);
+  background: var(--color-compliment);
   color: var(--color-background);
   font-weight: 500;
   padding: 0.65rem 2.5rem 0.65rem 2.5rem;
@@ -152,21 +162,34 @@ a {
 }
 
 /* Large Devices */
-@media screen and (min-width: 1200px) {
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1200px) {
+  /*#region Font Sizes */
+  :root {
+    --h1-font-size: 3.1rem;
+    --container-wide-margin: 4rem;
+  }
+  /*#endregion*/
 }
 
 /* Medium Devices */
 @media screen and (max-width: 992px) {
   /*#region Font Sizes */
   :root {
-    --h1-font-size: 3rem;
+    --h1-font-size: 2.9rem;
     --h2-font-size: 2.5rem;
     --h3-font-size: 2.25rem;
     --h4-font-size: 1.5rem;
-    --h5-font-size: 1rem;
-    --p-font-size: 0.9rem;
+    --h5-font-size: 1.2rem;
+    --p-font-size: 0.85rem;
 
+    /*#region Container Values*/
     --container-width: 850px;
+    --container-wide-margin: 3rem;
+    /*#endregion */
   }
   /*#endregion*/
 }
@@ -181,9 +204,15 @@ a {
     --h5-font-size: 1rem;
     --p-font-size: 0.85rem;
 
-    --container-width: 750px;
+    --container-width: 725px;
   }
   /*#endregion*/
+
+  .container {
+    max-width: none;
+    margin-left: var(--container-margin);
+    margin-right: var(--container-margin);
+  }
 
   body {
     margin: 0 0 0 0;
@@ -198,7 +227,7 @@ a {
     --h3-font-size: 2.4rem;
     --h4-font-size: 1.2rem;
     --h5-font-size: 1rem;
-    --p-font-size: 0.9rem;
+    --p-font-size: 0.8rem;
 
     --container-margin: 1.5rem;
     --container-wide-margin: 1rem;
