@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: var(--banner-height);
+  z-index: 999;
 }
 
 #home-stat-banner-container  * {

@@ -18,6 +18,7 @@
 
   /*#region Font Sizes */
   --h1-font-size: 3.5rem;
+  --h1-hero-font-size: 3.8rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2.75rem;
   --h4-font-size: 2rem;
@@ -30,7 +31,7 @@
   /*#region Container Values*/
   --container-width: 1300px;
   --container-margin: auto;
-  --container-wide-margin: 5rem;
+  --container-wide-margin: 6rem;
   /*#endregion */
 
   /*#region Gap Values */
@@ -38,7 +39,7 @@
   /*#endregion */
 
   /*#region Banner Values */
-  --banner-height: 12rem;
+  --banner-height: 14rem;
   --banner-padding: 1rem;
   /*#endregion */
 }
@@ -164,12 +165,20 @@ a {
 /* Large Devices */
 
 @media screen and (max-width: 1500px) {
+    /*#region Font Sizes */
+    :root {
+      --h1-hero-font-size: 3.4rem;
+    }
+    /*#endregion*/
+  
 }
 
 @media screen and (max-width: 1200px) {
   /*#region Font Sizes */
   :root {
-    --h1-font-size: 3.1rem;
+    --h1-font-size: 3rem;
+    --h5-font-size: 1.3rem;
+    --h1-hero-font-size: 3.1rem;
     --container-wide-margin: 4rem;
   }
   /*#endregion*/
@@ -180,10 +189,11 @@ a {
   /*#region Font Sizes */
   :root {
     --h1-font-size: 2.9rem;
+    --h1-hero-font-size: 3.2rem;
     --h2-font-size: 2.5rem;
     --h3-font-size: 2.25rem;
     --h4-font-size: 1.5rem;
-    --h5-font-size: 1.2rem;
+    --h5-font-size: 1.15rem;
     --p-font-size: 0.85rem;
 
     /*#region Container Values*/
@@ -198,6 +208,7 @@ a {
   /*#region Font Sizes */
   :root {
     --h1-font-size: 2.75rem;
+    --h1-hero-font-size: 3.1rem;
     --h2-font-size: 2.2rem;
     --h3-font-size: 1.8rem;
     --h4-font-size: 1.25rem;
@@ -223,6 +234,7 @@ a {
   /*#region Font Sizes */
   :root {
     --h1-font-size: 2.5rem;
+    --h1-hero-font-size: 3rem;
     --h2-font-size: 1.2rem;
     --h3-font-size: 2.4rem;
     --h4-font-size: 1.2rem;
@@ -240,6 +252,7 @@ a {
   /*#region Font Sizes */
   :root {
     --h1-font-size: 2rem;
+    --h1-hero-font-size: 2.75rem;
     --h2-font-size: 1.1rem;
     --h3-font-size: 2.2rem;
     --h4-font-size: 1.1rem;
