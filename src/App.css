@@ -32,6 +32,7 @@
   --container-width: 1300px;
   --container-margin: auto;
   --container-wide-margin: 6rem;
+  --section-padding: 4rem;
   /*#endregion */
 
   /*#region Gap Values */
@@ -127,6 +128,11 @@ a {
   margin-right: var(--container-wide-margin);
 }
 
+.section {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
 /*#endregion*/
 
 /*#reusable classes */
@@ -135,7 +141,7 @@ a {
   background: var(--color-compliment);
   color: var(--color-background);
   font-weight: 500;
-  padding: 0.65rem 2.5rem 0.65rem 2.5rem;
+  padding: 0.9rem 2.7rem 0.9rem 2.7rem;
   border-radius: 999px;
 }
 
@@ -182,6 +188,13 @@ a {
     --container-wide-margin: 4rem;
   }
   /*#endregion*/
+
+  /*#reusable classes */
+.button {
+  padding: 0.65rem 2.5rem 0.65rem 2.5rem;
+  border-radius: 999px;
+}
+
 }
 
 /* Medium Devices */
