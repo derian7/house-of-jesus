@@ -1,0 +1,8 @@
+#home-about-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#home-about-button {
+  width: 15rem;
+}

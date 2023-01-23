@@ -1,5 +1,5 @@
 import React from "react";
-import HomeAbout from './HomeAbout';
+import HomeAboutSection from './HomeAboutSection';
 import HomeHero from "./HomeHero";
 import HomeStatBanner from './HomeStatBanner';
 
@@ -8,7 +8,7 @@ const HomePage = () => {
     <React.Fragment>
       <HomeHero />
       <HomeStatBanner />
-      <HomeAbout />
+      <HomeAboutSection />
     </React.Fragment>
   );
 };
