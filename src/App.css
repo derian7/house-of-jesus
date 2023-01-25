@@ -26,13 +26,16 @@
   --p-font-size: 1.1rem;
   --button-font-size: 1.5rem;
   --button-small-font-size: 1.25rem;
+  --verse-font-size: 2rem;
   /*#endregion*/
 
   /*#region Container Values*/
   --container-width: 1300px;
   --container-margin: auto;
   --container-wide-margin: 6rem;
-  --section-padding: 4rem;
+  --section-padding: 9rem;
+  --section-narrow-padding: 2rem;
+  --section-padding-x: 3rem;
   /*#endregion */
 
   /*#region Gap Values */
@@ -43,6 +46,11 @@
   --banner-height: 14rem;
   --banner-padding: 1rem;
   /*#endregion */
+
+  /*# Line Spacing */
+  --h2-line-height: 4rem;
+
+  --small-icon-width: 3.5rem;
 }
 /*#endregion*/
 
@@ -53,12 +61,12 @@
 
 body {
   max-height: 1000px;
-  overflow-y: scroll;
 }
 
 p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  line-height: 1.75rem;
 }
 
 body {
@@ -87,11 +95,13 @@ h1 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: var(--h1-font-size);
+  font-weight: 600;
 }
 
 h2 {
   font-size: var(--h2-font-size);
-  font-weight: 500;
+  line-height: var(--h2-line-height);
+  font-weight: 700;
 }
 
 h3 {
@@ -105,6 +115,7 @@ h4 {
 h5 {
   font-size: var(--h5-font-size);
   font-weight: 500;
+  line-height: 2.5rem;
 }
 
 a {
@@ -131,6 +142,27 @@ a {
 .section {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
+  padding-right: var(--section-padding-x);
+  padding-left: var(--section-padding-x);
+  overflow-x: hidden;
+}
+
+.section-narrow {
+  padding-top: var(--section-narrow-padding);
+  padding-bottom: var(--section-narrow-padding);
+  padding-right: var(--section-padding-x);
+  padding-left: var(--section-padding-x);
+  overflow-x: hidden;
+}
+
+.verse {
+  font-size: var(--verse-font-size);
+}
+
+.small-icon {
+  width: var(--small-icon-width);
+  height: auto;
+  object-fit: contain;
 }
 
 /*#endregion*/
@@ -171,12 +203,11 @@ a {
 /* Large Devices */
 
 @media screen and (max-width: 1500px) {
-    /*#region Font Sizes */
-    :root {
-      --h1-hero-font-size: 3.4rem;
-    }
-    /*#endregion*/
-  
+  /*#region Font Sizes */
+  :root {
+    --h1-hero-font-size: 3.4rem;
+  }
+  /*#endregion*/
 }
 
 @media screen and (max-width: 1200px) {
@@ -190,11 +221,10 @@ a {
   /*#endregion*/
 
   /*#reusable classes */
-.button {
-  padding: 0.65rem 2.5rem 0.65rem 2.5rem;
-  border-radius: 999px;
-}
-
+  .button {
+    padding: 0.65rem 2.5rem 0.65rem 2.5rem;
+    border-radius: 999px;
+  }
 }
 
 /* Medium Devices */
@@ -212,7 +242,10 @@ a {
     /*#region Container Values*/
     --container-width: 850px;
     --container-wide-margin: 3rem;
+    --section-padding: 5rem;
     /*#endregion */
+
+    --small-icon-width: 2.5rem;
   }
   /*#endregion*/
 }
@@ -248,14 +281,17 @@ a {
   :root {
     --h1-font-size: 2.5rem;
     --h1-hero-font-size: 3rem;
-    --h2-font-size: 1.2rem;
+    --h2-font-size: 1.8rem;
     --h3-font-size: 2.4rem;
     --h4-font-size: 1.2rem;
     --h5-font-size: 1rem;
-    --p-font-size: 0.8rem;
+    --p-font-size: 0.85rem;
 
-    --container-margin: 1.5rem;
+    --container-margin: 0rem;
     --container-wide-margin: 1rem;
+    --section-padding-x: 3rem;
+
+    --button-font-size: 1.2rem;
   }
   /*#endregion*/
 }
@@ -266,14 +302,16 @@ a {
   :root {
     --h1-font-size: 2rem;
     --h1-hero-font-size: 2.75rem;
-    --h2-font-size: 1.1rem;
+    --h2-font-size: 1.6rem;
     --h3-font-size: 2.2rem;
     --h4-font-size: 1.1rem;
     --h5-font-size: 1rem;
-    --p-font-size: 0.8rem;
 
-    --container-margin: 1rem;
     --container-wide-margin: 1rem;
+    --section-padding: 8rem;
+    --section-padding-x: 2rem;
+
+    --h2-line-height: 3rem;
   }
   /*#endregion*/
 

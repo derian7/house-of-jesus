@@ -1,0 +1,153 @@
+#verse-banner {
+  background: #c5aa6a5e;
+  position: relative;
+}
+
+#verse-jesus-art-landscape {
+  display: none;
+}
+
+#verse-banner-container {
+  display: flex;
+  height: 19rem;
+  flex-direction: row;
+}
+
+#verse-banner-verse {
+  flex: 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-primary-dark);
+}
+
+#verse-banner-verse > p {
+  font-weight: 600;
+}
+
+#verse-banner-art {
+  right: 25%;
+  flex: 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#verse-jesus-art {
+  position: absolute;
+  width: 350px;
+  bottom: -13%;
+  border-radius: 7px;
+  border: 3px solid #c19f509f;
+  padding: 15px;
+}
+
+/*#region------------------------------------------------- BREAKPOINTS -------------------------------------------------*/
+
+/* X-Large Devices */
+@media screen and (min-width: 2160px) {
+}
+
+/* Large Devices */
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+/* Medium Devices */
+@media screen and (max-width: 992px) {
+  #verse-banner-container {
+    height: 15rem;
+  }
+
+  #verse-jesus-art {
+    width: 290px;
+    bottom: -16%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #verse-banner-container {
+    height: 13rem;
+  }
+
+  #verse-jesus-art {
+    width: 250px;
+    bottom: -16%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #verse-banner {
+    overflow-x: hidden;
+  }
+
+  #verse-banner-verse > h4 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  #verse-jesus-art {
+    display: none;
+  }
+
+  #verse-banner {
+    background: var(--color-primary-dark);
+  }
+
+  #verse-banner-container {
+    padding-left: var(--container-wide-margin);
+    padding-right: var(--container-wide-margin);
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 15rem;
+    overflow-x: hidden;
+  }
+
+  #verse-banner-verse {
+    z-index: 1;
+  }
+
+  #verse-jesus-art-landscape {
+    display: initial;
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 0;
+  }
+
+  #verse-banner-art::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -50px;
+    background-image: radial-gradient(circle, #02375500 10%, #0237557e 56%);
+  }
+
+  #verse-banner-verse {
+    flex: 0 75%;
+  }
+
+  #verse-banner-verse * {
+    color: var(--color-background);
+  }
+
+  #verse-banner-verse > p {
+    color: #e3d7b9;
+  }
+}
+
+/* Small Devices */
+@media screen and (max-width: 350px) {
+  #verse-banner-verse > h4 {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}
+/*#endregion */

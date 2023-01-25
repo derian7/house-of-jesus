@@ -1,8 +1,211 @@
+#home-about-container {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
 #home-about-info {
   display: flex;
+  flex: 0 50%;
   flex-direction: column;
+  gap: 1.5rem;
+  
 }
 
 #home-about-button {
-  width: 15rem;
+  width: 14rem;
+  text-align: center;
 }
+
+/*#region home about art */
+#home-about-art-container {
+  position: relative;
+  flex: 0 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#home-about-art-pic1 {
+  position: absolute;
+  top: 2%;
+  right: 30%;
+  width: 40%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#home-about-art-pic2 {
+  width: 60%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#home-about-art-caption {
+  position: absolute;
+  right: 30%;
+  bottom: -10%;
+  width: 40%;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: var(--color-secondary);
+  clip-path: polygon(7% 0, 100% 0, 95% 100%, 0 100%);
+}
+
+#home-about-art-caption * {
+  color: var(--color-background);
+}
+
+#home-about-art-bg {
+  position: absolute;
+  z-index: -99;
+  rotate: 45deg;
+  left: -15%;
+  width: 95%;
+  top: 10%;
+}
+/*#endregion*/
+
+/*#region------------------------------------------------- BREAKPOINTS -------------------------------------------------*/
+
+/* X-Large Devices */
+@media screen and (min-width: 2160px) {
+}
+
+/* Large Devices */
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+/* Medium Devices */
+@media screen and (max-width: 992px) {
+  /*#region home about art */
+  #home-about-container {
+    padding-top: 9rem;
+  }
+  #home-about-art-container {
+    align-items: center;
+  }
+
+  #home-about-art-pic1 {
+    right: 30%;
+    width: 170px;
+    height: 210px;
+  }
+
+  #home-about-art-pic2 {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  #home-about-art-caption {
+    right: 30%;
+    bottom: 15%;
+    width: 70%;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+
+
+  #home-about-art-bg {
+    left: -25%;
+    width: 400px;
+  }
+  /*#endregion*/
+}
+
+@media screen and (max-width: 768px) {
+
+  #home-about-container {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  /*#region home about art */
+  #home-about-art-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #home-about-art-pic1 {
+    right: 30%;
+    top: -40%;
+    width: 150px;
+    height: 180px;
+  }
+
+  #home-about-art-pic2 {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  #home-about-art-caption {
+    right: 35%;
+    bottom: -15%;
+    width: 14rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+
+
+  #home-about-art-bg {
+    top: -50px;
+    left: 150px;
+    rotate: 75deg;
+    width: 400px;
+  }
+  /*#endregion*/
+
+  #home-about-button {
+    justify-self: center;
+    align-self: center;
+    width: 13rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /*#region home about art */
+
+  #home-about-art-pic1 {
+    right: 15%;
+    top: -47%;
+    width: 150px;
+    height: 180px;
+  }
+
+
+  #home-about-art-caption {
+    right: auto;
+    left: calc(50% - 6.5rem);
+    width: 13rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  }
+
+
+  #home-about-art-bg {
+    top: -50px;
+    left: 0px;
+    width: 400px;
+  }
+  /*#endregion*/
+
+  #home-about-button {
+    justify-self: center;
+    align-self: center;
+    width: 12rem;
+  }
+}
+
+/* Small Devices */
+@media screen and (max-width: 350px) {
+  #home-about-art-pic2 {
+    width: 220px;
+    height: 250px;
+  }
+}
+/*#endregion */

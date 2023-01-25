@@ -66,6 +66,7 @@
   width: 95%;
   top: 0px;
   right: 20%;
+  overflow-y: hidden;
 }
 
 #hero-blob-7 {
@@ -98,6 +99,10 @@
   font-size: var(--h1-hero-font-size);
   text-transform: capitalize;
   z-index: 9;
+}
+
+#home-hero-info > h5 {
+  line-height: 2rem;
 }
 
 #home-hero-image {
