@@ -30,7 +30,7 @@ const HomeDonationSection = () => {
               sit Lorem.
             </p>
           </div>
-          <a className="button" id='donate-section-button'>Donate</a>
+          <a className="button" id='donate-section-button' href='/'>Donate</a>
         </div>
         <div id="home-donation-art">
           <img

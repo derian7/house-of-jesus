@@ -29,7 +29,7 @@
 }
 
 .banner-stat-icon {
-  width: 5rem;
+  width: 3rem;
 }
 
 /*#region---------------------------------------------- BREAKPOINTS ----------------------------------------------*/
@@ -48,7 +48,7 @@
 /* Medium Devices */
 @media screen and (max-width: 992px) {
   .banner-stat-icon {
-    width: 4.3rem;
+    width: 2.75rem;
   }
 
   #home-stat-banner-container {
@@ -58,11 +58,11 @@
 
 @media screen and (max-width: 768px) {
   .banner-stat-icon {
-    width: 3.4rem;
+    width: 2.25rem;
   }
 
   #home-stat-banner-container {
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .banner-stat {
@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 576px) {
   .banner-stat-icon {
-    width: 4.5rem;
+    width: 2.2rem;
   }
 
   #home-stat-banner {
@@ -81,17 +81,17 @@
   }
 
   #home-stat-banner-container {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .banner-stat {
     height: initial;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     width: auto;
     justify-content: flex-start;
   }

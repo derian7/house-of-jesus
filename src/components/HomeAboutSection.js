@@ -30,7 +30,7 @@ const HomeAboutSection = () => {
             duis exercitation. Adipisicing quis consectetur officia irure veniam
             minim velit ullamco cillum et officia.
           </p>
-          <a className="button" href='/about' id="home-about-button">Learn More</a>
+          <a className="button" href='/' id="home-about-button">Learn More</a>
         </div>
       </div>
     </div>
