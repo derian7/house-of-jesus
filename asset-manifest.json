@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/house-of-jesus/static/css/main.ed98c71d.css",
+    "main.js": "/house-of-jesus/static/js/main.25ffb855.js",
+    "static/js/787.d0f6c9c8.chunk.js": "/house-of-jesus/static/js/787.d0f6c9c8.chunk.js",
+    "static/media/family-1.png": "/house-of-jesus/static/media/family-1.b78ae1adb6270502cd2b.png",
+    "static/media/knock-landscape.png": "/house-of-jesus/static/media/knock-landscape.29e339733d336f1c4492.png",
+    "static/media/group-children.jpg": "/house-of-jesus/static/media/group-children.f8e4fe438c12aaefcea8.jpg",
+    "static/media/smiling-man.jpg": "/house-of-jesus/static/media/smiling-man.24731307018ad8bb6b64.jpg",
+    "static/media/family-2.jpg": "/house-of-jesus/static/media/family-2.99e3efab7ac7ccfccec6.jpg",
+    "static/media/knock.jpg": "/house-of-jesus/static/media/knock.38e68cd84d99aa30b02c.jpg",
+    "static/media/house-of-jesus-logo.svg": "/house-of-jesus/static/media/house-of-jesus-logo.79c55be440a0f9d886b8ec55c3cf0dc5.svg",
+    "static/media/logo-blue.svg": "/house-of-jesus/static/media/logo-blue.9499694438cdeafe6e999009e6088cd1.svg",
+    "static/media/form-icon.svg": "/house-of-jesus/static/media/form-icon.bfeb35ee2df78097b36f.svg",
+    "static/media/people-icon.svg": "/house-of-jesus/static/media/people-icon.86385b34f3bdf7f0da03.svg",
+    "static/media/permit-icon.svg": "/house-of-jesus/static/media/permit-icon.0d82a01dab4237a178f9.svg",
+    "static/media/blob-1.svg": "/house-of-jesus/static/media/blob-1.26d734884db4ab1dea7b66ae831ff3ad.svg",
+    "static/media/blob-green.svg": "/house-of-jesus/static/media/blob-green.5d7949ebd11db94c29e2b23cb836a93c.svg",
+    "index.html": "/house-of-jesus/index.html",
+    "static/media/blob-2.svg": "/house-of-jesus/static/media/blob-2.8569f419ef4940b4a07e6fee2d9d701f.svg",
+    "static/media/blob-3.svg": "/house-of-jesus/static/media/blob-3.957c1d0085ea43c9ee36f988c877423f.svg",
+    "static/media/blob-4.svg": "/house-of-jesus/static/media/blob-4.d15803b59d2111f144ad972d0b5f4ded.svg",
+    "static/media/blob-5.svg": "/house-of-jesus/static/media/blob-5.d15803b59d2111f144ad972d0b5f4ded.svg",
+    "static/media/blob-yellow.svg": "/house-of-jesus/static/media/blob-yellow.8f9f98df1186235f9673.svg",
+    "main.ed98c71d.css.map": "/house-of-jesus/static/css/main.ed98c71d.css.map",
+    "main.25ffb855.js.map": "/house-of-jesus/static/js/main.25ffb855.js.map",
+    "787.d0f6c9c8.chunk.js.map": "/house-of-jesus/static/js/787.d0f6c9c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed98c71d.css",
+    "static/js/main.25ffb855.js"
+  ]
+}
