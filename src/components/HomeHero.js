@@ -13,8 +13,8 @@ const HomeHero = () => {
       <div className="container-wide" id="home-hero-container">
         <div className="home-hero-half" id="home-hero-info">
           <h1>
-            <span className="hero-text-highlight">Opening</span> the{" "}
-            <span className="hero-text-highlight">doors</span> of immigration
+            <span className="hero-text-highlight">Opening</span> {" "}
+            <span className="hero-text-highlight">doors</span> and changing lives
           </h1>
           <h5>
             We are dedicated to providing immigrants with affordable assistance
