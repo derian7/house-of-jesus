@@ -49,19 +49,19 @@ const Header = () => {
         />
         <nav id="header-nav-menu">
           <ul class={toggleMenu ? "show-menu" : ""} id="header-nav-links">
-            <a href="/#" className="header-nav-link">
+            <a href="" className="header-nav-link">
               Home
             </a>
-            <a href="/#" className="header-nav-link">
+            <a href="" className="header-nav-link">
               Services
             </a>
-            <a href="/#" className="header-nav-link">
+            <a href="" className="header-nav-link">
               About
             </a>
-            <a href="/#" className="header-nav-link">
+            <a href="" className="header-nav-link">
               Contact
             </a>
-            <a href="/#" className="button-small" id="header-donate-button">
+            <a href="" className="button-small" id="header-donate-button">
               Donate
             </a>
           </ul>
