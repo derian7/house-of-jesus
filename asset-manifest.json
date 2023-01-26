@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/house-of-jesus/static/css/main.ed98c71d.css",
-    "main.js": "/house-of-jesus/static/js/main.cfc6838d.js",
+    "main.js": "/house-of-jesus/static/js/main.7b04b276.js",
     "static/js/787.d0f6c9c8.chunk.js": "/house-of-jesus/static/js/787.d0f6c9c8.chunk.js",
     "static/media/family-1.png": "/house-of-jesus/static/media/family-1.b78ae1adb6270502cd2b.png",
     "static/media/knock-landscape.png": "/house-of-jesus/static/media/knock-landscape.29e339733d336f1c4492.png",
@@ -23,11 +23,11 @@
     "static/media/blob-5.svg": "/house-of-jesus/static/media/blob-5.d15803b59d2111f144ad972d0b5f4ded.svg",
     "static/media/blob-yellow.svg": "/house-of-jesus/static/media/blob-yellow.8f9f98df1186235f9673.svg",
     "main.ed98c71d.css.map": "/house-of-jesus/static/css/main.ed98c71d.css.map",
-    "main.cfc6838d.js.map": "/house-of-jesus/static/js/main.cfc6838d.js.map",
+    "main.7b04b276.js.map": "/house-of-jesus/static/js/main.7b04b276.js.map",
     "787.d0f6c9c8.chunk.js.map": "/house-of-jesus/static/js/787.d0f6c9c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed98c71d.css",
-    "static/js/main.cfc6838d.js"
+    "static/js/main.7b04b276.js"
   ]
 }
