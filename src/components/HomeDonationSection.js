@@ -43,7 +43,7 @@ const HomeDonationSection = () => {
               that welcomes and supports our new neighbors.
             </p>
           </div>
-          <a className="button" id="donate-section-button" href="/">
+          <a className="button" id="donate-section-button" href="">
             Donate
           </a>
         </div>

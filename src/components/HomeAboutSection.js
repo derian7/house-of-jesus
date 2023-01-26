@@ -47,7 +47,7 @@ const HomeAboutSection = () => {
             these doors and help many people take their first
             step towards their dreams.
           </p>
-          <a className="button" href="/" id="home-about-button">
+          <a className="button" href="" id="home-about-button">
             Learn More
           </a>
         </div>

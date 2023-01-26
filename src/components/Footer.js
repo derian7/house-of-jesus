@@ -19,27 +19,27 @@ const Footer = () => {
             <h6>Menu</h6>
             <ul>
               <p>
-                <a className="footer-nav-link" href="/">
+                <a className="footer-nav-link" href="">
                   Home
                 </a>
               </p>
               <p>
-                <a className="footer-nav-link" href="/">
+                <a className="footer-nav-link" href="">
                   Services
                 </a>
               </p>
               <p>
-                <a className="footer-nav-link" href="/">
+                <a className="footer-nav-link" href="">
                   About
                 </a>
               </p>
               <p>
-                <a className="footer-nav-link" href="/">
+                <a className="footer-nav-link" href="">
                   Contact
                 </a>
               </p>
               <p>
-                <a className="footer-nav-link" href="/">
+                <a className="footer-nav-link" href="">
                   Donate
                 </a>
               </p>

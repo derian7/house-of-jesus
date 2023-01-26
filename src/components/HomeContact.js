@@ -15,7 +15,7 @@ const HomeContact = () => {
             For more information how to get in touch with us or if you'd prefer
             to write us a question, please visit our contact page.
           </p>
-          <a className="button" href="/" id="home-contact-button">
+          <a className="button" href="" id="home-contact-button">
             Contact
           </a>
         </div>
