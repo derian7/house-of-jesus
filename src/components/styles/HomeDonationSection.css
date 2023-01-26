@@ -46,7 +46,22 @@
 /*#region------------------------------------------------- BREAKPOINTS -------------------------------------------------*/
 
 /* X-Large Devices */
-@media screen and (min-width: 2160px) {
+@media screen and (min-width: 2100px) {
+  #home-donation-container {
+    overflow-y: hidden;
+  }
+
+  #donation-image {
+    width: 60%;
+  }
+
+  #donation-decoration {
+    width: 65%;
+    top: -2%;
+  }
+}
+
+@media screen and (min-width: 2700px) {
 }
 
 /* Large Devices */

@@ -11,26 +11,41 @@ const HomeDonationSection = () => {
       <div className="container section" id="home-donation-container">
         <div id="home-donation-info">
           <h2>How You Can Help</h2>
-          <h5>Amet sint incididunt eiusmod tempor deserunt quis.</h5>
+          <h5>
+            Many people in our community feel like they have no voice because of
+            their legal status. You can change that!
+          </h5>
           <div className="donation-point">
-            <img alt="donation icon" className="small-icon" src={DonationIcon}/>
+            <img
+              alt="donation icon"
+              className="small-icon"
+              src={DonationIcon}
+            />
             <p>
-              Laborum id aliqua eu deserunt mollit duis voluptate Lorem eiusmod
-              eiusmod eu ut culpa. Ea excepteur ex elit dolor fugiat laboris
-              anim. Culpa exercitation ut velit tempor do nulla elit enim Lorem
-              sit Lorem.
+              One way to support the mission of The House of Jesus is through
+              financial donations. Your donation will help us continue to
+              provide affordable assistance and guidance to immigrants. Every
+              small donation counts and your support will go towards providing
+              vital services such as assistance with forms, applications, and
+              community outreach to those in the Nebraska and Iowa area. Your
+              donation is tax-deductible and will make a real impact in the
+              lives of many people.
             </p>
           </div>
           <div className="donation-point">
-            <img alt="friend icon" className="small-icon" src={FriendIcon}/>
+            <img alt="friend icon" className="small-icon" src={FriendIcon} />
             <p>
-              Laborum id aliqua eu deserunt mollit duis voluptate Lorem eiusmod
-              eiusmod eu ut culpa. Ea excepteur ex elit dolor fugiat laboris
-              anim. Culpa exercitation ut velit tempor do nulla elit enim Lorem
-              sit Lorem.
+              Another way to help is by being kind and supportive to our fellow
+              immigrants in our community. This can be as simple as offering a
+              listening ear, helping with transportation, providing information
+              about resources, and standing up for them. By being an ally, you
+              give them a voice and will be an important part of a community
+              that welcomes and supports our new neighbors.
             </p>
           </div>
-          <a className="button" id='donate-section-button' href='/'>Donate</a>
+          <a className="button" id="donate-section-button" href="/">
+            Donate
+          </a>
         </div>
         <div id="home-donation-art">
           <img

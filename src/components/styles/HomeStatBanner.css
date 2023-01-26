@@ -35,7 +35,13 @@
 /*#region---------------------------------------------- BREAKPOINTS ----------------------------------------------*/
 
 /* X-Large Devices */
-@media screen and (min-width: 2160px) {
+@media screen and (min-width: 2100px) {
+  .banner-stat-icon {
+    width: 4rem;
+  }
+}
+
+@media screen and (min-width: 2700px) {
 }
 
 /* Large Devices */

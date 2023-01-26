@@ -203,9 +203,39 @@ a {
 /*---------------------------------------------------- BREAKPOINTS ----------------------------------------------------*/
 
 /* X-Large Devices */
-@media screen and (min-width: 2160px) {
+@media screen and (min-width: 2100px) {
+    /*#region Font Sizes */
+    :root {
+      --h1-font-size: 3.7rem;
+      --h2-font-size: 3.2rem;
+      --h5-font-size: 1.6rem;
+      --h6-font-size: 1.4rem;
+      --p-font-size: 1.25rem;
+      --h1-hero-font-size: 4.2rem;
+      --container-wide-margin: 5rem;
+    }
+    /*#endregion*/
+  
   :root {
     --container-width: 1920px;
+  }
+}
+
+@media screen and (min-width: 2700px) {
+  :root {
+    --container-width: 1920px;
+    --container-width-wide: 2560px; 
+    --h1-hero-font-size: 4rem;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .container-wide {
+    max-width: var(--container-width-wide);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

@@ -129,17 +129,86 @@
   bottom: 0px;
   width: calc(100% + var(--container-wide-margin));
   background: var(--color-compliment);
-  /*background: linear-gradient(90deg, var(--color-background) 0%, var(--color-compliment) 50%); */
 }
 
 /*#region---------------------------------------------- BREAKPOINTS ----------------------------------------------*/
 
 /* X-Large Devices */
-@media screen and (min-width: 2160px) {
+
+@media screen and (min-width: 2100px) {
+  #home-hero-container {
+    --home-hero-height: 38rem;
+  }
+
+  /*#region bg decorations */
+  #hero-blob-1 {
+    width: 10%;
+    right: -2%;
+  }
+
+  #hero-blob-2 {
+    width: 12%;
+  }
+
+  #hero-blob-3 {
+    width: 8%;
+    bottom: 15%;
+    right: -5%;
+  }
+
+  #hero-blob-4 {
+    width: 14%;
+    bottom: -7%;
+    left: -8%;
+  }
+
+  #hero-blob-5 {
+    width: 13%;
+    bottom: 50%;
+    left: -6%;
+  }
+
+  #hero-blob-6 {
+    width: 90%;
+  }
+
+  #hero-blob-7 {
+    width: 20%;
+    bottom: -10%;
+    left: 12%;
+  }
+  /*#endregion */
+
+  #home-hero-image {
+    right: 4%;
+  }
+
+
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2700px) {
+
+  #home-hero-visual::after {
+    width: 3000px;
+    overflow-x: hidden;
+  }
+
+
+  /*#region bg decorations */
+
+  #hero-blob-4 {
+    width: 400px;
+    bottom: -7%;
+    left: -8%;
+  }
+
+  #hero-blob-5 {
+    width: 300px;
+    bottom: 55%;
+    left: -6%;
+  }
 }
+
 /* Large Devices */
 @media screen and (max-width: 1500px) {
   #home-hero-container {

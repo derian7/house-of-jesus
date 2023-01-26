@@ -58,7 +58,25 @@ footer p {
 /*#region------------------------------------------------- BREAKPOINTS -------------------------------------------------*/
 
 /* X-Large Devices */
-@media screen and (min-width: 2160px) {
+@media screen and (min-width: 2100px) {
+  .footer-quote {
+    font-size: 0.9rem;
+  }
+
+  #footer-copyright {
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+
+  
+#footer-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+  
 }
 
 /* Large Devices */

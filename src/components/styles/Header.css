@@ -152,15 +152,16 @@ header {
 /* Large Devices */
 @media screen and (max-width: 1200px) {
   header {
-    background-color: var(--color-background);
+    --header-menu-radius: 3.2em;
   }
 
   #header-logo {
     transition: 0.25s;
-    width: 225px;
+    width: 210px;
   }
 
   header.header-scrolled {
+    background-color: var(--color-background);
     position: sticky;
     top: 0;
     z-index: 999;
@@ -172,7 +173,7 @@ header {
   header.header-scrolled > .header-container {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    transition: 0.5s;
+    transition: 0.4s;
   }
 
   #header-logo.header-scrolled {
@@ -189,14 +190,14 @@ header {
     position: fixed;
     width: 100%;
     left: 0;
-    top: -40%;
+    top: -90%;
     z-index: 10;
     flex-direction: row;
     justify-content: center;
     background: var(--color-white);
     margin: 0;
     padding: 6rem 0 2rem 0;
-    transition: 1s;
+    transition: 0.5s;
     gap: 2.5rem;
   }
 
@@ -211,7 +212,7 @@ header {
   #header-nav-links.show-menu a{
     opacity: 1;
     transition: 0.2s;
-    transition-delay: 0.7s;
+    transition-delay: 0.4s;
   }
 
   #header-donate-button {
@@ -222,6 +223,10 @@ header {
 
 /* Medium Devices */
 @media screen and (max-width: 992px) {
+  header {
+    background-color: var(--color-background);
+  }
+  
   #header-logo {
     width: 225px;
   }
@@ -250,7 +255,7 @@ header {
 
   #header-nav-links.show-menu a{
     transition: 0.3s;
-    transition-delay: 0.65s;
+    transition-delay: 0.4s;
   }
 }
 
